@@ -1,3 +1,6 @@
+body{
+  overflow-y: hidden;
+}
 .container {
   margin: 0;
   padding: 0;
@@ -14,7 +17,7 @@ a:hover {
   color: #fff6f6;
 }
 nav {
-  height: 680px;
+  height: 100vh;
   width: 220px;
   background-color: rgb(3, 3, 94);
   display: flex;
@@ -125,3 +128,4 @@ span {
   margin: 25px -10px;
   background-color: #fff;
 }
+
